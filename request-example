@@ -1,0 +1,8 @@
+GET https://sec542.org/digest/ HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Authorization: Digest username="trillian", realm="Security542", nonce="4h/nQ9PKBQA=7123752507d7d63a253292edc4503aa21dc78dbc", uri="/digest/", algorithm=MD5, response="6f220d1e2496a50ebfb003ca285b2d54", qop=auth, nc=00000001, cnonce="893083eb066e982b"
+Host: sec543.org
