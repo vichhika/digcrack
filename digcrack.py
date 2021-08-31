@@ -2,7 +2,7 @@ import sys,re,argparse
 from hashlib import md5
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--wordlist",help="Password wordlists",required=False)
+parser.add_argument("--wordlist",help="Password wordlists",required=True)
 parser.add_argument("--request",help="Request http headers",required=True)
 args = parser.parse_args()
 
